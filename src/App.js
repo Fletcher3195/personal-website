@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+// Bulma Framework CSS
+import 'react-bulma-components/dist/react-bulma-components.min.css';
+
+import { Container, Heading, Hero, Section } from 'react-bulma-components';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Section className="hero-section">
+        <Hero className="hero" color="dark" gradient size="fullheight" style={{"align-items": "center"}}>
+          <Hero.Body>
+            <Container>
+              <Heading>Hello!</Heading>
+              <Heading>I am James</Heading>
+            </Container>
+          </Hero.Body>
+        </Hero>
+      </Section>
     </div>
   );
 }
