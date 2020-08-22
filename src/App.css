@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('../node_modules/@fortawesome/fontawesome-free/css/all.css');
+
 
 .hero-col {
   padding: 0 !important;
 }
 
+
 .hero {
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  font-family: 'Montserrat Alternates', sans-serif;
   color: white;
   background-image: url("./resources/img/city-street.jpg");
   background-size: cover;
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
 }
 
 .hero-text {
@@ -19,5 +24,42 @@
 }
 
 .greeting {
+  font-family: 'Montserrat', sans-serif;
   font-size: calc(10px + 4vmin);
+}
+
+
+
+.about {
+  min-height: 100vh;
+  background-color: #CFF2EE;
+  padding-top: 5vh;
+}
+
+.about .container .row div {
+}
+
+.about .container .row div img {
+  width: 100%;
+  background-size: cover;
+}
+
+.fa-github,
+.fa-linkedin,
+.fa-envelope {
+  color: #29B6F6;
+}
+
+.fa-linkedin {
+  padding-left: 4px;
+}
+
+.aboutMe {
+  text-align: center;
+}
+
+hr {
+  max-width: 75px;
+  border: 0 !important;
+  border-top: 3px solid #26C6DA  !important;
 }
