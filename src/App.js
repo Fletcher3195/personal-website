@@ -60,7 +60,11 @@ function App() {
           </section>
 
           <section className="portfolio">
-            
+          <Container>
+                <Row>
+                  <h2>Things I've Done</h2>
+                </Row>
+              </Container>
           </section>
     </div>
   );
