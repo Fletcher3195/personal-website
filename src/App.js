@@ -28,10 +28,10 @@ function App() {
           <section className="about">
             <Container>
                 <Row>
-                  <Col className="col-md-5 col-xs-12">
+                  <Col md={5} xs={12}>
                     <Image src={aboutPhoto} roundedCircle />
                   </Col>
-                  <Col className="col-md-6 col-xs-12">
+                  <Col md={6} xs={12}>
                     <h2 class='aboutMe'>About Me</h2>
                     <hr/>
                     <p>
@@ -44,7 +44,7 @@ function App() {
                         Be sure to check back later when I have real content and a living resume.
                     </p>
                   </Col>
-                  <Col className="col-md-1 col-xs-12">
+                  <Col md={1} xs={12}>
                     <a type="button" class="btn btn-default" aria-label="Left Align" target="_blank" href='mailto:fletcher.3195@gmail.com'>
                       <span class="fas fa-envelope fa-4x" aria-hidden="true"></span>
                     </a>
